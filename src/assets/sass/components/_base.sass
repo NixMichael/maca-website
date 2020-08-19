@@ -1,0 +1,43 @@
+.main-content {
+    width: 60vw;
+    margin: 1rem 0;
+
+    ul {
+        width: 60%;
+        margin: 1rem auto;
+    }
+
+    li {
+        margin-bottom: 1rem;
+        text-align: left;
+    }
+
+    .headerWrap {
+        display: flex;
+        justify-content: center;
+
+        p {
+            padding: 1rem;
+            margin: 1rem 0;
+            position: relative;
+
+            &:before, &:after {
+                position: absolute;
+                width: 3rem;
+                height: 100%;
+                top: 0.5rem;
+            }
+
+            &:before {
+                left: -2rem;
+                content: url('../assets/LOGO/HeaderImg01.jpg');
+            }
+
+            &:after {
+                right: -2rem;
+                content: url('../assets/LOGO/HeaderImg02.jpg');
+            }
+        }
+    }
+
+}
