@@ -42,7 +42,7 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-tap-highligh-color: transparent;
+  -webkit-tap-highlight-color: transparent;
   text-align: center;
   color: #32373b;
   min-height: 100vh;
