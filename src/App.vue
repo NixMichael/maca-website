@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="header">
-      <input type="checkbox" id="toggler"/>
+      <input class="noSelect" type="checkbox" id="toggler"/>
       <div id="burger-menu"><div></div></div>
       <div id="header-image"><img src="@/assets/LOGO/Logo.jpg"/></div>
       <div id="nav">
@@ -42,7 +42,6 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-tap-highlight-color: transparent;
   text-align: center;
   color: #32373b;
   min-height: 100vh;
@@ -451,6 +450,16 @@ h2 {
         }
       }
     }
+  }
+
+  .noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
 </style>
