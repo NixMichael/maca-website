@@ -150,6 +150,7 @@
         li {
             list-style: none;
             margin-bottom: 1rem;
+            margin-left: -2rem;
         }
 
         .headerWrap {

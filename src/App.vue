@@ -309,6 +309,10 @@ h2 {
         min-height: 200px;
         text-align: left;
 
+        li {
+          margin-left: 0.5rem;
+        }
+
         &:nth-child(2) {
           padding: 1rem 0 3rem;
         }
