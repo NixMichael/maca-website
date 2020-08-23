@@ -94,10 +94,12 @@
     color: rgb(231, 231, 231);
     background: $background-color;
     position: relative;
-    opacity: 1;
     top: 0;
-    transition: opacity 400ms ease-in;
-    transition: top 600ms ease-in-out;
+    // transition: opacity 400ms ease-in-out;
+    // transition: top 600ms ease-in-out;
+    // transition: height 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+    // transition: opacity 400ms ease-in 400ms;
     z-index: -1;
 
     .links {
@@ -196,6 +198,10 @@
       opacity: 1;
       height: 210px;
       top: 0;
+
+      .links {
+        opacity: 1;
+      }
     }
 
   &~ #burger-menu {
@@ -366,7 +372,7 @@ h2 {
     }
 
     #nav {
-      opacity: 0;
+      opacity: 1;
       height: 0;
       top: -250px;
       background: rgba($background-color, 0.95);
@@ -375,6 +381,8 @@ h2 {
         display: flex;
         flex-direction: column;
         align-items: center;
+        opacity: 0;
+        transition: opacity 800ms ease-in;
 
         .router-link {
           border-right: none;
