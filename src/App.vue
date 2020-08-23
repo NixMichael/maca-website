@@ -95,11 +95,7 @@
     background: $background-color;
     position: relative;
     top: 0;
-    // transition: opacity 400ms ease-in-out;
-    // transition: top 600ms ease-in-out;
-    // transition: height 400ms ease-in-out;
     transition: all 400ms ease-in-out;
-    // transition: opacity 400ms ease-in 400ms;
     z-index: -1;
 
     .links {
