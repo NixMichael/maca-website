@@ -113,6 +113,10 @@
           font-size: 1rem;
         }
       }
+
+      .section-centered {
+        width: 85vw;
+      }
   }
 
 </style>

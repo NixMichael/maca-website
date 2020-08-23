@@ -80,7 +80,7 @@
     @media screen and (max-width: 800px) {
 
         .main-content {
-            max-width: 90vw;
+            width: 85vw;
         }
 
         img {
