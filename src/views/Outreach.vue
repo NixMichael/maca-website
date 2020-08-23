@@ -145,12 +145,19 @@
         .center-list {
             display: flex;
             justify-content: center;
+
+            div li:nth-child(2n) {
+                color: white;
+            }
         }
 
         li {
             list-style: none;
             margin-bottom: 1rem;
             margin-left: -2rem;
+            &:nth-child(2n) {
+                color: rgb(100,100,100);
+            }
         }
 
         .headerWrap {

@@ -302,7 +302,7 @@ h2 {
         list-style: none;
         font-family: 'Shadows Into Light', cursive;
         font-size: 1.3rem;
-        color: rgb(205, 217, 218);
+        color: white;
         background-image: linear-gradient(to bottom right, $postit-color-a, $postit-color-b);
         padding: 2rem;
         min-width: 220px;
