@@ -1,3 +1,3 @@
 module.exports = {
-	publicPath: '/maca-website/'
+#	publicPath: '/maca-website/'
 }
