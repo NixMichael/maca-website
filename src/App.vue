@@ -422,7 +422,7 @@ h2 {
     .postit {
 
       &:first-child {
-        margin-left: -2rem;
+        margin-left: 2rem;
         width: 220px;
       }
 
