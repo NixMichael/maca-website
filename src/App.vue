@@ -194,6 +194,7 @@
       opacity: 1;
       height: 210px;
       top: 0;
+      margin-bottom: 1rem;
 
       .links {
         opacity: 1;
@@ -372,6 +373,7 @@ h2 {
       height: 0;
       top: -250px;
       background: rgba($background-color, 0.95);
+      margin-bottom: 0;
 
       .links {
         display: flex;
