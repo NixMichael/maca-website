@@ -95,7 +95,7 @@
     background: $background-color;
     position: relative;
     top: 0;
-    max-height: 2rem;
+    max-height: 2.45rem;
     transition: all 400ms ease-in-out;
     z-index: -1;
 
@@ -181,6 +181,7 @@
 
 #toggler {
   position: absolute;
+  visibility: hidden;
   top: 35px;
   left: 15px;
   width: 40px;
@@ -356,6 +357,10 @@ h2 {
   }
 
   @media screen and (max-width: 800px) {
+
+    #toggler {
+      visibility: visible;
+    }
 
     #burger-menu {
       visibility: visible;
