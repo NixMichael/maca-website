@@ -95,6 +95,7 @@
     background: $background-color;
     position: relative;
     top: 0;
+    max-height: 2rem;
     transition: all 400ms ease-in-out;
     z-index: -1;
 
@@ -371,6 +372,7 @@ h2 {
     #nav {
       opacity: 1;
       height: 0;
+      max-height: 100vh;
       top: -250px;
       background: rgba($background-color, 0.95);
       margin-bottom: 0;

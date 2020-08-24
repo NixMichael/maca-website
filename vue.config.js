@@ -1,3 +1,3 @@
-module.export = {
-	publicPath: '/maca-live/'
+module.exports = {
+	publicPath: '/maca-website/'
 }
