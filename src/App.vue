@@ -28,6 +28,16 @@
   </div>
 </template>
 
+<script>
+export default {
+  data () {
+    return {
+      thisYear: new Date().getFullYear()
+    }
+  }
+}
+</script>
+
 <style lang="scss">
 
 @import '@/assets/sass/base/_variables.scss';
