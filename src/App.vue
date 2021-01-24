@@ -17,7 +17,7 @@
     <router-view/>
       <Footer>
         <div>
-          &copy; {{ thisYear }} Manchester Animal Climate Action
+          &copy; 2011 Manchester Animal Climate Action
         </div>
         <div>
           <a target="_blank" href="https://www.facebook.com/ManchesterAnimalAction/"><img src="@/assets/ICONS/facebook-icon.png"/></a>
