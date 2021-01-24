@@ -17,7 +17,7 @@
     <router-view/>
       <Footer>
         <div>
-          &copy; 2021 Manchester Animal Action
+          &copy; {{ thisYear }} Manchester Animal Action
         </div>
         <div>
           <a target="_blank" href="https://www.facebook.com/ManchesterAnimalAction/"><img src="@/assets/ICONS/facebook-icon.png"/></a>
