@@ -17,7 +17,7 @@
     <router-view/>
       <Footer>
         <div>
-          &copy; {{ thisYear }} Manchester Animal Action
+          &copy; 2021 Manchester Animal Action
         </div>
         <div>
           <a target="_blank" href="https://www.facebook.com/ManchesterAnimalAction/"><img src="@/assets/ICONS/facebook-icon.png"/></a>
@@ -27,16 +27,6 @@
       </Footer>
   </div>
 </template>
-
-<script>
-  export default {
-    data () {
-      return {
-        thisYear: new Date().getFullYear()
-      }
-    }
-  }
-</script>
 
 <style lang="scss">
 
