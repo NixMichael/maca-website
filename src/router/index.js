@@ -36,11 +36,6 @@ const routes = [
     path: '/socialmedia',
     name: 'Social Media',
     component: () => import('../views/SocialMedia.vue')
-  },
-  {
-    path: '/latestnews',
-    name: 'Latest News',
-    component: () => import('../views/LatestNews.vue')
   }
 ]
 
