@@ -9,7 +9,6 @@
         <router-link class="router-link" to="/">What Is MACA?</router-link>
         <router-link class="router-link" to="/outreach">Manchester Vegan Outreach</router-link>
         <router-link class="router-link" to="/otherevents">Other Events</router-link>
-        <router-link class="router-link" to="/latestnews">Latest News</router-link>
         <router-link class="router-link" to="/contact">Contact Us</router-link>
         </div>
       </div>
